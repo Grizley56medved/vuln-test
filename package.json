@@ -1,0 +1,18 @@
+{
+  "name": "test-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build:prod": "vite build --mode production",
+    "build:dev": "vite build --mode dev",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "electron": "7.2.2"
+  },
+  "devDependencies": {
+  }
+}
