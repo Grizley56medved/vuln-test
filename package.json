@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "electron": "7.2.2"
+    "electron": "7.2.4"
   },
   "devDependencies": {
   }
